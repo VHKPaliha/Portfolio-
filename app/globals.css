@@ -1,0 +1,185 @@
+/* Import Tailwind CSS base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS custom properties for color scheme */
+:root {
+  --foreground-rgb: 245, 245, 245; /* Light gray for text */
+  --background-start-rgb: 0, 0, 0; /* Pure black for gradient start */
+  --background-end-rgb: 18, 18, 18; /* Dark gray for gradient end */
+}
+
+/* Global body styles */
+body {
+  color: rgb(var(--foreground-rgb));
+  /* Gradient background from black to dark gray */
+  background: linear-gradient(to bottom, rgb(var(--background-start-rgb)), rgb(var(--background-end-rgb)));
+  /* Font feature settings for better typography */
+  font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+  min-height: 100vh;
+}
+
+/* Tailwind base layer customizations */
+@layer base {
+  /* CSS custom properties for design system colors */
+  :root {
+    --background: 0 0% 0%; /* Pure black background */
+    --foreground: 0 0% 96%; /* Light foreground text */
+    --card: 0 0% 7%; /* Dark charcoal for cards */
+    --card-foreground: 0 0% 96%; /* Light text on cards */
+    --popover: 0 0% 7%; /* Dark popover background */
+    --popover-foreground: 0 0% 96%; /* Light popover text */
+    --primary: 0 0% 96%; /* Light primary color */
+    --primary-foreground: 0 0% 0%; /* Dark text on primary */
+    --secondary: 0 0% 15%; /* Medium charcoal secondary */
+    --secondary-foreground: 0 0% 96%; /* Light text on secondary */
+    --muted: 0 0% 15%; /* Muted background color */
+    --muted-foreground: 0 0% 65%; /* Muted text color */
+    --accent: 0 0% 15%; /* Accent color */
+    --accent-foreground: 0 0% 96%; /* Text on accent */
+    --destructive: 0 62.8% 30.6%; /* Red for destructive actions */
+    --destructive-foreground: 0 0% 96%; /* Light text on destructive */
+    --border: 0 0% 15%; /* Border color */
+    --input: 0 0% 15%; /* Input background */
+    --ring: 0 0% 96%; /* Focus ring color */
+    --radius: 0.5rem; /* Default border radius */
+  }
+}
+
+/* Additional base layer styles */
+@layer base {
+  /* Apply border color to all elements */
+  * {
+    @apply border-border;
+  }
+
+  /* Body styling with design system colors */
+  body {
+    @apply bg-background text-foreground;
+    /* Advanced font features for better rendering */
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* All headings use monospace font */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-mono;
+  }
+}
+
+/* Custom font family definitions */
+.font-mono {
+  font-family: var(--font-fira-code), monospace;
+}
+
+.font-sans {
+  font-family: var(--font-open-sans), var(--font-inter), system-ui, sans-serif;
+}
+
+/* Professional color utility classes */
+.text-white {
+  color: #ffffff;
+}
+
+.text-light-gray {
+  color: #f5f5f5;
+}
+
+.text-medium-gray {
+  color: #a6a6a6;
+}
+
+.text-dark-gray {
+  color: #666666;
+}
+
+.text-charcoal {
+  color: #333333;
+}
+
+/* Background color utility classes */
+.bg-black {
+  background-color: #000000;
+}
+
+.bg-dark-charcoal {
+  background-color: #121212;
+}
+
+.bg-medium-charcoal {
+  background-color: #1a1a1a;
+}
+
+.bg-light-charcoal {
+  background-color: #262626;
+}
+
+.bg-charcoal {
+  background-color: #333333;
+}
+
+/* Border color utility classes */
+.border-dark-charcoal {
+  border-color: #121212;
+}
+
+.border-medium-charcoal {
+  border-color: #1a1a1a;
+}
+
+.border-light-charcoal {
+  border-color: #262626;
+}
+
+.border-charcoal {
+  border-color: #333333;
+}
+
+/* Hover state utility classes */
+.hover\:text-white:hover {
+  color: #ffffff;
+}
+
+.hover\:bg-light-charcoal:hover {
+  background-color: #262626;
+}
+
+.hover\:bg-charcoal:hover {
+  background-color: #333333;
+}
+
+/* Prose styles for article content */
+.prose pre {
+  background-color: #121212; /* Dark background for code blocks */
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto; /* Horizontal scroll for long code */
+}
+
+.prose code {
+  font-family: var(--font-fira-code), monospace; /* Monospace font for code */
+}
+
+/* Spacing for prose elements */
+.prose h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.prose p {
+  margin-bottom: 1.25rem;
+}
+
+.prose ul {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
