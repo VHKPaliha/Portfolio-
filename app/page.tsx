@@ -77,7 +77,7 @@ export default function Home() {
                 {/* Languages information card */}
                 <div className="bg-dark-charcoal p-6 rounded-xl border border-medium-charcoal">
                   <h3 className="text-lg font-mono font-semibold mb-2 text-white">Languages</h3>
-                  <p className="text-medium-gray">English (Fluent), Sinhala (Native)</p>
+                  <p className="text-medium-gray">English, Sinhala</p>
                 </div>
 
                 {/* Experience information card */}
@@ -127,7 +127,7 @@ export default function Home() {
               {/* Right column - Profile image placeholder */}
               <div className="aspect-square max-w-xs mx-auto bg-medium-charcoal rounded-2xl overflow-hidden border border-light-charcoal">
                 <img
-                  src="/placeholder.svg?height=300&width=300"
+                  src="/imageP.png"
                   alt="Profile Photo"
                   className="w-full h-full object-cover"
                 />

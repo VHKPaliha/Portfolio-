@@ -6,30 +6,25 @@ export default function AboutPage() {
   const frontendSkills = [
     "React.js",
     "Next.js",
+    "Flutter",
+    "Swift",
     "HTML5",
-    "CSS3",
+    "dart",
     "Tailwind CSS",
     "TypeScript",
     "JavaScript",
-    "Redux",
-    "Context API",
-    "Formik",
-    "Yup",
+    
   ]
 
   const backendSkills = [
     "Java (8+)",
     "Spring Boot",
-    "Spring Security",
-    "Spring Data JPA",
+    
+    
     "REST APIs",
     "MySQL",
     "PostgreSQL",
     "Firebase",
-    "JUnit",
-    "Mockito",
-    "JWT",
-    "OAuth2",
   ]
 
   const mobileSkills = [
@@ -48,10 +43,8 @@ export default function AboutPage() {
   const devopsSkills = [
     "Git",
     "GitHub",
-    "GitLab",
     "Postman",
     "Docker (Basics)",
-    "CI/CD (Conceptual)",
     "IntelliJ IDEA",
     "VS Code",
     "Xcode",
@@ -77,7 +70,7 @@ export default function AboutPage() {
 
                 <div className="aspect-square max-w-xs bg-medium-charcoal rounded-2xl overflow-hidden mb-8 border border-light-charcoal">
                   <img
-                    src="/placeholder.svg?height=300&width=300"
+                    src="/imageP.png"
                     alt="Profile Photo"
                     className="w-full h-full object-cover"
                   />
@@ -130,7 +123,7 @@ export default function AboutPage() {
 
                   <div className="space-y-8">
                     <div className="bg-dark-charcoal p-6 rounded-xl border border-medium-charcoal">
-                      <h3 className="font-medium mb-3 text-white">🌐 Frontend Development</h3>
+                      <h3 className="font-medium mb-3 text-white">Frontend Development</h3>
                       <ul className="text-sm text-medium-gray space-y-2 list-disc pl-4">
                         <li>
                           React.js: Built single-page applications using functional components, hooks, and state
@@ -158,7 +151,7 @@ export default function AboutPage() {
                     </div>
 
                     <div className="bg-dark-charcoal p-6 rounded-xl border border-medium-charcoal">
-                      <h3 className="font-medium mb-3 text-white">💾 Backend Development</h3>
+                      <h3 className="font-medium mb-3 text-white">Backend Development</h3>
                       <ul className="text-sm text-medium-gray space-y-2 list-disc pl-4">
                         <li>
                           Java (8+): Proficient in object-oriented programming, multi-threading, collections framework,
@@ -186,7 +179,7 @@ export default function AboutPage() {
                     </div>
 
                     <div className="bg-dark-charcoal p-6 rounded-xl border border-medium-charcoal">
-                      <h3 className="font-medium mb-3 text-white">📱 Mobile App Development</h3>
+                      <h3 className="font-medium mb-3 text-white">Mobile App Development</h3>
                       <ul className="text-sm text-medium-gray space-y-2 list-disc pl-4">
                         <li>
                           Flutter (Dart): Created full-featured mobile apps using state management tools like Provider
@@ -205,31 +198,7 @@ export default function AboutPage() {
                       </ul>
                     </div>
 
-                    <div className="bg-dark-charcoal p-6 rounded-xl border border-medium-charcoal">
-                      <h3 className="font-medium mb-3 text-white">⚙️ DevOps & Tools</h3>
-                      <ul className="text-sm text-medium-gray space-y-2 list-disc pl-4">
-                        <li>
-                          Git & GitHub/GitLab: Experienced with branching strategies, pull requests, and merge conflict
-                          resolution in both solo and team projects.
-                        </li>
-                        <li>
-                          Postman: Extensively used to test RESTful APIs, write test scripts, set environment variables,
-                          and automate workflows.
-                        </li>
-                        <li>
-                          Docker (Basics): Containerized Java-based apps, created Dockerfiles, and used Docker Compose
-                          for lightweight local environments.
-                        </li>
-                        <li>
-                          CI/CD (Conceptual): Understands Jenkins, GitHub Actions, and the deployment pipeline.
-                          Simulated CI/CD flows in academic projects.
-                        </li>
-                        <li>
-                          IDE & Tools: IntelliJ IDEA, VS Code, Xcode, Android Studio. Worked with Firebase Console,
-                          Firebase Emulator, and Google Cloud Console.
-                        </li>
-                      </ul>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
