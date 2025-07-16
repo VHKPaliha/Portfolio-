@@ -23,7 +23,7 @@ export default function ContactPage() {
                     <p>
                       <span className="block text-medium-gray text-sm">Email:</span>
                       <a
-                        href="mailto:your.email@example.com"
+                        href="mailto:venura.palihawadana@icloud.com"
                         className="text-light-gray hover:text-white transition-colors"
                       >
                         venura.palihawadana@icloud.com
@@ -31,8 +31,8 @@ export default function ContactPage() {
                     </p>
                     <p>
                       <span className="block text-medium-gray text-sm">Phone:</span>
-                      <a href="tel:+94XXXXXXXX" className="text-light-gray hover:text-white transition-colors">
-                        +94 077643292
+                      <a href="tel:+94766743292" className="text-light-gray hover:text-white transition-colors">
+                        +94 766743292
                       </a>
                     </p>
                   </div>

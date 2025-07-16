@@ -52,13 +52,13 @@ export default function Footer() {
             <div className="text-sm">
               {/* Email link */}
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:venura.palihawadana@icloud.com"
                 className="block text-light-gray hover:text-white transition-colors mb-1"
               >
                 venura.palihawadana@icloud.com
               </a>
               {/* Phone link */}
-              <a href="tel:+94XXXXXXXX" className="block text-light-gray hover:text-white transition-colors">
+              <a href="tel:+94766743292" className="block text-light-gray hover:text-white transition-colors">
                 +94 766743292
               </a>
             </div>
