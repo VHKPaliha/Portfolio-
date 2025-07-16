@@ -38,8 +38,7 @@ export default function Home() {
 
                 {/* Description paragraph with professional summary */}
                 <p className="text-medium-gray mb-8 max-w-2xl mx-auto md:mx-0">
-                Motivated and detail-oriented Software Engineer with 1 year of hands-on experience in full-stack development. Skilled in building scalable backend systems using Java and Spring Boot, and developing responsive user interfaces with React and Next.js. Demonstrates a solid understanding of software architecture, clean code practices, and collaborative development in Agile environments. Eager to contribute to innovative projects and grow technical expertise further.
-
+                Motivated and detail-oriented software engineer with experience in full-stack development. Skilled in building backend systems with Java and Spring Boot, and creating responsive frontends using React and Next.js. Understands clean code, software architecture, and teamwork in Agile environments. Eager to learn and work on innovative projects.
                 </p>
 
                 {/* Call-to-action button container */}
@@ -103,15 +102,12 @@ export default function Home() {
 
                 {/* First paragraph about mobile development */}
                 <p className="text-medium-gray mb-6">
-                I’m a full-stack developer who loves turning ideas into reliable, user-friendly software. With a strong focus on backend development using Java and Spring Boot, I enjoy solving complex problems and building APIs that power real-world applications. I also work with React, Next.js, and Flutter to create clean, responsive web and mobile interfaces. I’m passionate about learning new technologies, writing clean code, and building things that make an impact.
-
+                I’m a full-stack developer who enjoys building reliable, user-friendly software. I focus on backend development with Java and Spring Boot, creating APIs that power real-world apps. I also use React, Next.js, and Flutter to build clean, responsive web and mobile interfaces. I’m always learning new technologies and enjoy working on projects that make a real impact.
                 </p>
 
                 {/* Second paragraph about frontend expansion */}
                 <p className="text-medium-gray mb-8">
-                  Currently, I'm expanding into frontend ecosystems with React.js and Next.js, building fast,
-                  SEO-friendly web apps with modern design principles. I thrive in collaborative environments and take
-                  pride in writing clean, maintainable code that solves real problems.
+                  
                 </p>
 
                 {/* Link to full about page */}

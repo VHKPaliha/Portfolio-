@@ -8,9 +8,7 @@ export default function AboutPage() {
     "Next.js",
     "Flutter",
     "Swift",
-    "HTML5",
     "dart",
-    "Tailwind CSS",
     "TypeScript",
     "JavaScript",
     
@@ -19,8 +17,6 @@ export default function AboutPage() {
   const backendSkills = [
     "Java (8+)",
     "Spring Boot",
-    
-    
     "REST APIs",
     "MySQL",
     "PostgreSQL",
@@ -31,12 +27,7 @@ export default function AboutPage() {
     "Flutter",
     "Dart",
     "Swift",
-    "UIKit",
-    "Provider",
-    "Riverpod",
     "Firebase Auth",
-    "Firestore",
-    "Cloud Messaging",
     "REST API Integration",
   ]
 
@@ -64,8 +55,7 @@ export default function AboutPage() {
               <div>
                 <h1 className="text-4xl md:text-5xl font-mono font-bold mb-6 text-white">About Me</h1>
                 <p className="text-lg mb-6 text-light-gray">
-                  I'm a passionate and driven full-stack developer who enjoys creating robust backend systems and
-                  beautiful, responsive frontends.
+                  
                 </p>
 
                 <div className="aspect-square max-w-xs bg-medium-charcoal rounded-2xl overflow-hidden mb-8 border border-light-charcoal">
@@ -78,19 +68,12 @@ export default function AboutPage() {
 
                 <div className="space-y-4 mb-8">
                   <p className="text-medium-gray">
-                    With strong foundations in Java and Spring Boot, I focus on building scalable RESTful APIs,
-                    microservices, and clean backend architectures. My love for cross-platform development has led me to
-                    develop multiple mobile apps using Flutter and Swift, combining sleek user interfaces with real-time
-                    functionality using Firebase.
+                  With a strong foundation in Java and Spring Boot, I specialize in building scalable RESTful APIs and clean backend systems. I’ve also developed cross-platform mobile apps using Flutter and Swift, integrating real-time features with Firebase. Recently, I’ve been expanding into frontend development with React and Next.js, creating fast, SEO-friendly web apps. I enjoy working collaboratively and take pride in writing clean, reliable code that delivers real-world impact.
                   </p>
-                  <p className="text-medium-gray">
-                    Currently, I'm expanding into frontend ecosystems with React.js and Next.js, building fast,
-                    SEO-friendly web apps with modern design principles. I thrive in collaborative environments and take
-                    pride in writing clean, maintainable code that solves real problems.
-                  </p>
+                  
                 </div>
 
-                <div className="mb-8">
+                {/* <div className="mb-8">
                   <h2 className="text-xl font-mono font-semibold mb-4 text-white">
                     Concepts, Methodologies, and Soft Skills
                   </h2>
@@ -114,7 +97,7 @@ export default function AboutPage() {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               <div className="space-y-8">
@@ -126,27 +109,17 @@ export default function AboutPage() {
                       <h3 className="font-medium mb-3 text-white">Frontend Development</h3>
                       <ul className="text-sm text-medium-gray space-y-2 list-disc pl-4">
                         <li>
-                          React.js: Built single-page applications using functional components, hooks, and state
-                          management systems like Context API and Redux. Familiar with dynamic routing, modals, and form
-                          validation libraries such as Formik and Yup.
+                        React.js: Built single-page applications using components, hooks, and state management like Context API and Redux. Experienced with features like routing, modals, and form validation using tools like Formik and Yup.
                         </li>
                         <li>
-                          Next.js: Leveraging SSR and static generation to build high-performance, SEO-optimized web
-                          apps. Developed dynamic routing, middleware for authentication, and API integration for
-                          client-side and server-side rendering.
+                        Next.js: Used for building fast, SEO-friendly websites. Worked with server-side rendering (SSR), static generation, and authentication middleware. Integrated APIs on both the server and client sides.
+
                         </li>
                         <li>
-                          HTML5 & CSS3: Deep understanding of semantic HTML and modern CSS techniques, including
-                          Flexbox, Grid, transitions, animations, and media queries for responsive design.
+                        TypeScript: Added type safety to React projects for better code quality, catching bugs early and making the code easier to maintain
                         </li>
-                        <li>
-                          Tailwind CSS: Rapid UI development using utility classes, responsive breakpoints, and dark
-                          mode support. Developed scalable design systems for admin dashboards.
-                        </li>
-                        <li>
-                          TypeScript: Used for type-safe React components, interfaces, and code reliability, improving
-                          maintainability and reducing runtime bugs.
-                        </li>
+                      
+                        
                       </ul>
                     </div>
 
@@ -154,27 +127,17 @@ export default function AboutPage() {
                       <h3 className="font-medium mb-3 text-white">Backend Development</h3>
                       <ul className="text-sm text-medium-gray space-y-2 list-disc pl-4">
                         <li>
-                          Java (8+): Proficient in object-oriented programming, multi-threading, collections framework,
-                          file I/O, and design patterns. Wrote reusable service classes and clean architecture layers.
+                        Java (8+): Experienced in object-oriented programming, working with collections, file handling, multithreading, and common design patterns. Built clean and reusable backend code using layered architecture.
                         </li>
                         <li>
-                          Spring Boot: Created robust backend APIs with RESTful endpoints, used Spring Data JPA for
-                          persistence, and implemented exception handling using @ControllerAdvice. Integrated with
-                          MySQL, PostgreSQL, and Firebase Realtime Database.
+                        Spring Boot: Developed powerful REST APIs using Spring Boot. Connected to databases with Spring Data JPA and handled errors using global exception handling. Worked with MySQL, PostgreSQL, and Firebase.
                         </li>
                         <li>
-                          Authentication & Security: Implemented role-based authentication using Spring Security, JWT
-                          tokens, and OAuth2. Protected endpoints and integrated CSRF protection for web interfaces.
+                        Authentication & Security: Added login and role-based access using Spring Security and JWT tokens. Secured APIs and forms with CSRF protection and OAuth2.
                         </li>
                         <li>
-                          Database Management: Strong knowledge of relational databases like MySQL/PostgreSQL; created
-                          normalized schemas, wrote optimized queries, and managed migrations. Familiar with NoSQL
-                          databases via Firebase.
-                        </li>
-                        <li>
-                          Testing: Wrote unit tests using JUnit and Mockito for controller and service layers, ensuring
-                          test coverage and application stability.
-                        </li>
+                        Databases: Designed and managed databases using MySQL and PostgreSQL. Wrote efficient SQL queries, handled migrations, and understood NoSQL basics with Firebase Firestore.                        </li>
+                       
                       </ul>
                     </div>
 
